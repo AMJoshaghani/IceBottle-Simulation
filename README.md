@@ -15,7 +15,7 @@ The simulation provides a visual representation of temperature gradients and pha
 *   **Multi-phase System:** Simulates the interaction between solid ice, liquid water, and air.
 *   **Real-time Physics:** Parameters and constants can be adjusted to see their immediate effect on the system.
 *   **Cross-Platform:** Built with Rust and the Macroquad engine, it runs seamlessly on both Windows and Linux.
-*   **Educational Focus:** The code is heavily commented to explain the physical models being implemented.
+*   **Educational Focus:** The code is commented to explain the physical models being implemented.
 
 ## Physics Model
 
