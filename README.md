@@ -37,7 +37,7 @@ Pre-compiled binaries for Windows and Linux are available on the [Releases page]
 
 1.  Go to the **Releases** section of this GitHub repository.
 2.  Download the latest version for your operating system (e.g., `.exe` for Windows or `.AppImage` for Linux).
-3.  Run the executable file inside (e.g., `IceBottle-Simulation.exe` on Windows, `IceBottle-Simulation.AppImage` on Linux).
+3.  Run the executable file (e.g., `IceBottle-Simulation.exe` on Windows, `IceBottle-Simulation.AppImage` on Linux).
     *   **On Linux:** You may need to give the file executable permissions first. You can do this in your file manager or by running `chmod +x IceBottle-Simulation.AppImage` in a terminal within the downloaded folder.
 
 ### Option 2: Building from Source (Requires Rust)
