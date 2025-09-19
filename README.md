@@ -27,27 +27,35 @@ The core simulation is based on solving the heat equation numerically within the
 *   **Boundary Conditions:** The external temperature is set to a constant value, acting as a heat sink/source.
 
 For a detailed explanation of the equations and numerical methods used, please refer to the comments in the main source file: `src/main.rs`.
-
 ## How to Run
 
-### Prerequisites
+You can run the simulation in one of two ways: by using a pre-built executable (easy) or by building from source (requires Rust).
 
-1.  **Rust Toolchain:** You need to have Rust installed. The easiest way is to use [rustup](https://rustup.rs/).
+### Option 1: Using Pre-built Executables (Recommended for most users)
 
-### Instructions
+Pre-compiled binaries for Windows and Linux are available on the [Releases page](https://github.com/AMJoshaghani/IceBottle-Simulation/releases).
 
-1.  **Clone the repository:**
+1.  Go to the **Releases** section of this GitHub repository.
+2.  Download the latest version for your operating system (e.g., `.exe` for Windows or `.AppImage` for Linux).
+3.  Run the executable file inside (e.g., `IceBottle-Simulation.exe` on Windows, `IceBottle-Simulation.AppImage` on Linux).
+    *   **On Linux:** You may need to give the file executable permissions first. You can do this in your file manager or by running `chmod +x IceBottle-Simulation.AppImage` in a terminal within the extracted folder.
+
+### Option 2: Building from Source (Requires Rust)
+
+If you have the Rust toolchain installed, you can build and run the project directly.
+
+1.  **Install Rust:** The easiest way is to use [rustup](https://rustup.rs/).
+2.  **Clone the repository:**
     ```bash
-    git clone https://github.com/AMJoshaghani/IceBottle-Simulation
+    git clone https://github.com/AMJoshaghani/IceBottle-Simulation.git
     cd IceBottle-Simulation
     ```
-
-2.  **Run the simulation:**
+3.  **Run the simulation:**
     ```bash
     cargo run --release
     ```
     The `--release` flag is important for getting optimal performance.
-
+    
 ## Dependencies
 
 This project relies on the [Macroquad](https://macroquad.rs/) game engine, which Rust's package manager, Cargo, automatically handles. You do not need to install it separately.
