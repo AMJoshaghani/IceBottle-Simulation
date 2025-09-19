@@ -1,0 +1,2 @@
+![screenshot](https://s6.uupload.ir/files/2025-09-19_14_49_40_n4u.png)
+A simple simulation of thermal exchanges of a water/ice/air system inside a bottle. This project uses [Macroquad game-engine](https://macroquad.rs/) as its graphical environment provider. Physical explanations are provided inside the code.
