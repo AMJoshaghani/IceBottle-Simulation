@@ -1,6 +1,7 @@
 # Bottle Thermodynamics Simulation
 
 A real-time numerical simulation of heat transfer within a sealed water bottle containing ice, water, and air.
+([3D version with Taichi](https://github.com/AMJoshaghani/IceBottle-Simulation-Taichi))
 
 ![Simulation Screenshot](https://s6.uupload.ir/files/2025-09-19_14_49_40_n4u.png)
 
